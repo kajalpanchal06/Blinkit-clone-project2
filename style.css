@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+.header{
+    background-color: #f7c600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo h2{
+    color: green;
+    font-size: 35px;
+}
+
+.search input{
+    width: 450px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.menu button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu button:hover{
+    background-color: green;
+    color: white;
+}
+
+.location{
+    background-color: white;
+    padding: 15px 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.location h3{
+    color: black;
+}
+
+.location p{
+    color: gray;
+    margin-top: 5px;
+}
+.banner{
+    background:#e9f8d7;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.banner h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.banner button{
+    background:green;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.banner button:hover{
+    background:#0b6b0b;
+}
+.categories{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:40px;
+}
+
+.box{
+    background:white;
+    width:150px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    font-size:20px;
+    font-weight:bold;
+}
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.card{
+    width:200px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    text-align:center;
+}
+
+.card button{
+    background:green;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.card img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+}
